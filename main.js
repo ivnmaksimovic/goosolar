@@ -69,6 +69,8 @@ require([
 	moon.meshRendererComponent.materials[0].uniforms.materialAmbient = [1,1,1,1];
 	earth.transformComponent.attachChild( moon.transformComponent);
 
+    /* Saturn should be added here*/
+
     var borg = createHostileObject(0.4, 0.4, 0.4, borgTex);
     borg.transformComponent.setTranslation( 2, 0, 0);
     borg.meshRendererComponent.materials[0].uniforms.materialAmbient = [1,1,1,1];
